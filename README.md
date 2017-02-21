@@ -16,6 +16,34 @@ Créez le schéma de bases de données correspondant à ces maquettes:
 ![onemovie.png](onemovie.png)
 
 
+
+1. Création BDD Movie DB!
+
+  Création des tables et des colonnes :
+
+    - Genres (recherche/genres)
+        - id (int(11) - Auto_increment)
+        - title ((VARCHAR(255))
+        - Quantity (VARCHAR (63))
+
+    - Year_search (recherche/année de prod.)
+        - id (int(11) - Auto_increment)
+        - Year ((VARCHAR(255))
+        - Quantity (VARCHAR (63))
+        
+    - Movies (liste des films)
+        - id (int(11) - Auto_increment)
+        - Name ((VARCHAR(255))
+        - Date (DATE)
+        - Duration (TIME)
+        - Genres (VARCHAR (63))
+        - Director (VARCHAR (63))
+        - Actors ((VARCHAR(255))
+        - long_desc (TEXT)
+        - Stars (VARCHAR (63))
+
+
+
 ### Exo 2
 Une bibliothèque dispose d’une base de données reprenant des ouvrages, respectant les contraintes suivantes :  
 – Chaque ouvrage est doté d’un numéro l’identifiant au sein de la bibliothèque et est caractérisé par son numéro ISBN, son titre, son éditeur, sa date de parution, ses auteurs (décrits par leurs numéro, nom et prénom) et ses références bibliographiques (les ouvrages qu’il cite).  
