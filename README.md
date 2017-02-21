@@ -30,8 +30,8 @@ Créez le schéma de bases de données correspondant à ces maquettes:
         - id (int(11) - Auto_increment)
         - Year ((VARCHAR(255))
         - Quantity (VARCHAR (63))
-        
-    - Movies (liste des films)
+
+    - movies (liste des films)
         - id (int(11) - Auto_increment)
         - Name ((VARCHAR(255))
         - Date (DATE)
@@ -39,8 +39,12 @@ Créez le schéma de bases de données correspondant à ces maquettes:
         - Genres (VARCHAR (63))
         - Director (VARCHAR (63))
         - Actors ((VARCHAR(255))
-        - long_desc (TEXT)
+        - short_desc (TEXT)
         - Stars (VARCHAR (63))
+        - long_desc (TEXT)
+        - distributor (VARCHAR (63))
+
+
 
 
 
